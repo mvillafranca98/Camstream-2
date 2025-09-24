@@ -39,7 +39,7 @@ A **Rust-driven** real-time camera stream analyzer that captures video from your
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/camstream.git
+git clone https://github.com/YOUR_USERNAME/camstream.git
 cd camstream
 
 # Run the setup script
@@ -55,7 +55,7 @@ source .venv/bin/activate
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/camstream.git
+git clone https://github.com/YOUR_USERNAME/camstream.git
 cd camstream
 
 # Install dependencies
