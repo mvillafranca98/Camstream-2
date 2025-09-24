@@ -1,0 +1,23 @@
+[package]
+name = "camstream"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "camstream"
+crate-type = ["cdylib"]
+
+[[bin]]
+name = "camstream"
+path = "src/main_simple.rs"
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["extension-module"] }
+anyhow = "1.0"
+thiserror = "1.0"
+ctrlc = "3.4"
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = "s"
